@@ -3,10 +3,7 @@ import {menuItems} from "./content";
 
 function menu() {
     const div = createElem('div');
-    div.style.cssText = "  display: grid;\n" +
-        "  grid-template-columns: repeat(3, 1fr);\n" +
-        "  grid-template-rows: auto;\n" +
-        "background-color: transparent" + getStyle();
+    div.setAttribute('class', 'container-grid');
     menuItems.forEach(i => div.innerHTML += createMenuItem(i));
     getContainer().appendChild(div);
 }

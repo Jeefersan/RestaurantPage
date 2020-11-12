@@ -21,6 +21,26 @@
     "d d d d d d d d ";
 }
 
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 8px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-rows: auto;
+        background-color: transparent;
+        border-radius: 4px;
+        margin: 8px
+    }
+}
+
 img {
     width: 320px;
     height: 240px;
