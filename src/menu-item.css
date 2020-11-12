@@ -1,6 +1,7 @@
 .container-item {
     padding: 8px;
     display: flex;
+    margin: 4px;
     flex-direction: column;
     width: 320px;
     height: 360px;

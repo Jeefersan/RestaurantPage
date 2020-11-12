@@ -54,7 +54,7 @@ const createHoursSection = () => {
 
 const createSection = () => {
     const div = createElem('div');
-    div.style.cssText = `display: inline-block; padding: 8px 24px; height: 90%;min-height: 220px; ${getStyle()}`;
+    div.style.cssText = `display: inline-block; padding: 8px 24px; height: 90%;min-height: 220px; background-color: rgba(255, 255, 255, 0.60);${getStyle()}`;
     return div;
 }
 

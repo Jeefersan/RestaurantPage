@@ -9,7 +9,7 @@ function createHeader(title){
 }
 
 function getStyle() {
-    return 'background-color: rgba(255, 255, 255, 0.60); border-radius: 4px; margin: 8px';
+    return 'border-radius: 4px; margin: 8px';
 }
 
 function getContainer() {
