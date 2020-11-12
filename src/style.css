@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-size: cover;
+  max-width: 100%;
+  line-height: 1.5;
+  color: rgb(59, 59, 59);
+}
+
+.container {
+  background-color: rgba(173, 173, 173, 0.842);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  padding: 0.5rem;
+  min-width: 720px;
+  margin: 0.5rem auto;
+  border-radius: 4px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Montez", cursive;
+  font-size: 64px;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(59, 59, 59);
+}
+
+header {
+ text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  padding-bottom: 4px;
+  border-bottom: solid 1px #c2c2c2;
+}
+
+.jumbotron {
+  height: 10rem;
+  width: 90%;
+  margin: 4px 0;
+}
+
+#jumbotron-img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: antiquewhite;
+  padding: 0.5rem 2.5rem;
+  text-align: center;
+  border: 1px antiquewhite solid;
+  margin: 0.5rem;
+}
+
+li a:hover {
+  background-color: lightslategrey;
+}
+
+nav ul {
+  background-color: rgba(51, 51, 51, 0.918);
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  width: 100vw;
+  text-align: center;
+}
+
+.title-sub {
+  margin: 0.5rem;
+}
+
+td {
+  padding: 0 16px;
+}
