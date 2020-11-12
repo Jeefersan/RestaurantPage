@@ -17,16 +17,17 @@ body {
   align-items: center;
   justify-content: center;
   width: 85%;
-  padding: 0.5rem;
+  padding: 2rem;
   min-width: 720px;
-  margin: 0.5rem auto;
+  margin: 1rem auto;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 #content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  min-height: 320px;
 }
 
 h1 {
@@ -76,7 +77,8 @@ li a {
 }
 
 li a:hover {
-  background-color: lightslategrey;
+  background-color: rgba(87, 84, 84, 0.92);
+  cursor: pointer;
 }
 
 nav ul {
@@ -87,6 +89,14 @@ nav ul {
   overflow: hidden;
   width: 100vw;
   text-align: center;
+}
+
+.tab-active {
+  background-color: rgba(12, 12, 12, 0.92);
+}
+
+.tab-active:hover {
+  background-color: rgba(49, 46, 46, 0.7);
 }
 
 .title-sub {

@@ -4,11 +4,10 @@ import {aboutContent, openingHours} from "./content";
 function home() {
     const aboutDiv = createElem('div');
     aboutDiv.appendChild(createAboutSection());
-    aboutDiv.style.width = '45%';
+    aboutDiv.style.width = '70%';
 
     const hoursDiv = createElem('div');
     hoursDiv.appendChild(createHoursSection());
-    hoursDiv.style.width = '45%';
     hoursDiv.style.textAlign = 'center';
 
     getContainer().appendChild(aboutDiv);
@@ -24,6 +23,8 @@ function createAboutSection() {
 
     div.appendChild(header);
     div.appendChild(para);
+
+    div.style.cssText += ""
 
     return div;
 }
@@ -53,7 +54,7 @@ const createHoursSection = () => {
 
 const createSection = () => {
     const div = createElem('div');
-    div.style.cssText = `display: inline-block; padding: 8px 16px; height: 100%; ${getStyle()}`;
+    div.style.cssText = `display: inline-block; padding: 8px 24px; height: 90%;min-height: 220px; ${getStyle()}`;
     return div;
 }
 
